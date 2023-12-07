@@ -80,9 +80,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180",
-      "height": "12"
+      "url": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/f173c70f-63fc-42c8-8e5b-4689ee6caa75___0552078f566b4976e76202f704fe9105.png",
+      "width": "200",
+      "height": "55"
     }
   },
   "header-layout.mobile": {
@@ -125,9 +125,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      "width": "77.5",
-      "height": "27.5"
+      "url": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/f173c70f-63fc-42c8-8e5b-4689ee6caa75___0552078f566b4976e76202f704fe9105.png",
+      "width": "200",
+      "height": "70"
     }
   }
 }

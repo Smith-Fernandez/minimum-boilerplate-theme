@@ -1,6 +1,20 @@
 {
   "store.home": {
     "blocks": [
+      "flex-layout.row#backgroundmain"
+    ]
+  },
+  "flex-layout.row#backgroundmain":{
+    "children":[
+     
+      "flex-layout.col#backgrounmaincol1"
+    ],
+    "props":{
+      "blockClass":"background-main"
+    }
+  },
+  "flex-layout.col#backgrounmaincol1":{
+    "children":[
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
@@ -22,12 +36,44 @@
       "preload": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+          "image": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/b45aa64a-81e7-41f8-9afd-a0b7fdce901f___3013b46f7d0b9c97d21f3fcbc5902142.png",
+          "mobileImage": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/b45aa64a-81e7-41f8-9afd-a0b7fdce901f___3013b46f7d0b9c97d21f3fcbc5902142.png"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "image": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/5dd79398-0874-49c2-84d8-c6ee30f5e2fd___9bbe1e30be46e9f923c37c54d42ccf47.png",
+          "mobileImage": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/5dd79398-0874-49c2-84d8-c6ee30f5e2fd___9bbe1e30be46e9f923c37c54d42ccf47.png"
+        },
+        {
+          "image": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/d7e3adf3-ac51-4f36-a3dc-73e0c9f66a56___1259113becd6f7856ef7ce3932178e82.png",
+          "mobileImage": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/d7e3adf3-ac51-4f36-a3dc-73e0c9f66a56___1259113becd6f7856ef7ce3932178e82.png"
+        },
+        {
+          "image": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/4142fd0f-3689-4b7b-b42d-08ecfe54e7dd___bc08e0829a53fda8f0479f85466911f2.jpg",
+          "mobileImage": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/4142fd0f-3689-4b7b-b42d-08ecfe54e7dd___bc08e0829a53fda8f0479f85466911f2.jpg"
+        },
+        {
+          "image": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/b1084f27-ae09-49a7-9553-aa6dde04701d___2e9b9a88dfdae8f84e941ef5b13689b0.png",
+          "mobileImage": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/b1084f27-ae09-49a7-9553-aa6dde04701d___2e9b9a88dfdae8f84e941ef5b13689b0.png"
+        },
+        {
+          "image": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/cc58fad8-2503-4825-9eb2-200980fbd4ff___3005e0d2d946ca6cb0fa42933ecd5e98.jpg",
+          "mobileImage": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/cc58fad8-2503-4825-9eb2-200980fbd4ff___3005e0d2d946ca6cb0fa42933ecd5e98.jpg"
+        },
+        {
+          "image": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/7054ef38-fb29-45cd-9db2-c62489570edc___469631db16f3d7f8d4d0044d517202f0.png",
+          "mobileImage": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/7054ef38-fb29-45cd-9db2-c62489570edc___469631db16f3d7f8d4d0044d517202f0.png"
+        },
+        {
+          "image": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/460665b6-867c-4585-abfc-28ab431c0f82___272de67ddc47743d42341661e62d0317.png",
+          "mobileImage": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/460665b6-867c-4585-abfc-28ab431c0f82___272de67ddc47743d42341661e62d0317.png"
+        },
+        {
+          "image": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/8cb52377-31bc-4036-a3ae-357c67583847___36582efa4ff91da187fdbb30bc6af18f.jpg",
+          "mobileImage": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/8cb52377-31bc-4036-a3ae-357c67583847___36582efa4ff91da187fdbb30bc6af18f.jpg"
+        },
+        {
+          "image": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/c792e04f-8ee1-41a3-8fa9-fa51e6044f95___62f16f09b48d71cb9b021966453ac7e0.png",
+          "mobileImage": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/c792e04f-8ee1-41a3-8fa9-fa51e6044f95___62f16f09b48d71cb9b021966453ac7e0.png"
         }
       ]
     }
