@@ -20,11 +20,11 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "flex-layout.row#deals",
       "__fold__",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      "flex-layout.row#hg-categories",
+      //"flex-layout.row#shelf",
+      //"info-card#home",
+      //"rich-text#question",
+      //"rich-text#link",
       "newsletter"
     ]
   },
@@ -93,11 +93,20 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
-      "blockClass": "shelfTitle"
+      "text": "## CATEGORÍAS DESTACADAS",
+      "blockClass":"hthemscrema",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
-  "flex-layout.row#shelf": {
+  "flex-layout.row#hg-categories":{
+    "children":["rich-text#shelf-title"],
+    "props":{
+      "blockClass": "blk-hg-categories"
+    }
+  },
+
+/*  "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
@@ -119,7 +128,7 @@
       "blockClass": "shelf"
     }
   },
-
+*/
   "info-card#home": {
     "props": {
       "id": "info-card-home",

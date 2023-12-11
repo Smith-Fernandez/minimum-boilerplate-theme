@@ -88,3 +88,23 @@
     line-height: 1.3em;
   }
 }
+
+/*Estilos tienda crema*/
+
+.container .heading-level-2,.container .heading-level-3{
+  font-weight: bolder;
+  color: black;
+  font-family: "Oswald";
+}
+
+.heading-level-2{
+font-size: 38.4px;
+line-height: 1.2;
+font-weight: 200;
+}
+.heading-level-3{
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 400;
+}
+
