@@ -2,6 +2,7 @@
 .flexRowContent--main-header {
   padding: 0 0.5rem;
   background: #fcf9ef !important ; /*color de fondo del menu*/
+ 
 }
 
 @media screen and (min-width: 40em) {
@@ -99,4 +100,8 @@
 }
 .flexRow--background-main{
   background:  #fcf9ef;
+}
+.flexCol--menu-header{
+  margin-right: 0px;
+  padding-right: 0px;
 }

@@ -8,9 +8,12 @@
       "menu-item#mujer",
       "menu-item#niños",
       "menu-item#hogar",
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#accesorios",
+      "menu-item#cuidadopersonal",
+      "menu-item#novedades",
+      "menu-item#emprendecrema",
+      "menu-item#vertodo",
+      "menu-item#campeones" 
     ]
   },
   "menu-item#indumentaria": {
@@ -143,7 +146,7 @@
   },
   "menu-item#niños":{
     "props": {
-      "id": "menu-item-category-mujer",
+      "id": "menu-item-category-niños",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -282,6 +285,194 @@
         "noFollow": false,
         "tagTitle": "SÁBANAS",
         "text": "SÁBANAS"
+      }
+    }
+  },
+  "menu-item#accesorios":{
+    "props": {
+      "id": "menu-item-category-accesorios",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "ACCESORIOS",
+        "text": "ACCESORIOS"
+      }
+    }
+  },
+  "menu-item#cuidadopersonal":{
+    "props": {
+      "id": "menu-item-category-cuidadopersonal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "CUIDADO PERSONAL",
+        "text": "CUIDADO PERSONAL"
+      }
+    }
+  },
+  "menu-item#novedades":{
+    "props": {
+      "id": "menu-item-category-novedades",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "NOVEDADES",
+        "text": "NOVEDADES"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-novedades"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-novedades":{
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-novedades"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-novedades":{
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#novedades-medalla",
+      "menu-item#novedades-rompecabezas",
+      "menu-item#novedades-agendaalbum",
+      "menu-item#novedades-pisco",
+      "menu-item#novedades-focos"
+    ]
+  },
+  "menu-item#novedades-medalla":{
+    "props": {
+      "id": "menu-item-novedades-medalla",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "MEDALLA",
+        "text": "MEDALLA"
+      }
+    }
+  },
+  "menu-item#novedades-rompecabezas":{
+    "props": {
+      "id": "menu-item-novedades-rompecabezas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "ROMPECABEZAS",
+        "text": "ROMPECABEZAS"
+      }
+    }
+  },
+  "menu-item#novedades-agendaalbum":{
+    "props": {
+      "id": "menu-item-novedades-agendaalbum",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "AGENDA/ALBUM",
+        "text": "AGENDA/ALBUM"
+      }
+    }
+  },
+  "menu-item#novedades-pisco":{
+    "props": {
+      "id": "menu-item-novedades-pisco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "PISCO",
+        "text": "PISCO"
+      }
+    }
+  },
+  "menu-item#novedades-focos":{
+    "props": {
+      "id": "menu-item-novedades-focos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "FOCOS",
+        "text": "FOCOS"
+      }
+    }
+  },
+  "menu-item#emprendecrema":{
+    "props": {
+      "id": "menu-item-category-emprendecrema",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "EMPRENDE CREMA",
+        "text": "EMPRENDE CREMA"
+      }
+    }
+  },
+  "menu-item#vertodo":{
+    "props": {
+      "id": "menu-item-category-vertodo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "VER TODO",
+        "text": "VER TODO"
+      }
+    }
+  },
+  "menu-item#campeones":{
+    "props": {
+      "id": "menu-item-category-campeones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "CAMPEONES",
+        "text": "CAMPEONES"
       }
     }
   },

@@ -1,5 +1,16 @@
-.menuItem--isClosed {
-
-
-
+/* .menuItem--isOpen{
+    color: black !important;
+}
+.menuItem--isClosed{
+    color: black !important;
+}
+*/
+.styledLinkContainer{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+ 
+.styledLink{
+    color: #781d20 !important;
+    font-size: 11px !important;
 }
