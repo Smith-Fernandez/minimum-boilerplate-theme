@@ -10,7 +10,9 @@
       "flex-layout.col#backgrounmaincol1"
     ],
     "props":{
-      "blockClass":"background-main"
+      "blockClass":"background-main",
+      "rowgap": 4
+      
     }
   },
   "flex-layout.col#backgrounmaincol1":{
@@ -18,15 +20,20 @@
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
-      "__fold__",
-      "flex-layout.row#hg-categories",
+      //"flex-layout.row#deals",
+      //"__fold__",      
+      "flex-layout.row#block-securewidth"
       //"flex-layout.row#shelf",
       //"info-card#home",
       //"rich-text#question",
       //"rich-text#link",
-      "newsletter"
-    ]
+      //"newsletter"
+    ],
+    "props":{
+      "width":"100%"
+
+    }
+
   },
 
   "list-context.image-list#demo": {
@@ -89,23 +96,23 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
-  },
+  } ,
 
-  "rich-text#shelf-title": {
-    "props": {
-      "text": "## CATEGORÍAS DESTACADAS",
-      "blockClass":"hthemscrema",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
-  },
-  "flex-layout.row#hg-categories":{
-    "children":["rich-text#shelf-title"],
-    "props":{
-      "blockClass": "blk-hg-categories"
-    }
-  },
+"flex-layout.row#block-securewidth":{
+  "children":[
+              "flex-layout.col#block-securewidth"            
+  ],
 
+  "props":{
+    "blockClass": "securewidth"
+  }
+
+},"flex-layout.col#block-securewidth":{
+    "children":[
+      "rich-text#shelf-title",
+      "flex-layout.row#hg-categories"            
+  ]
+},
 /*  "flex-layout.row#shelf": {
     "children": ["list-context.product-list#demo1"]
   },

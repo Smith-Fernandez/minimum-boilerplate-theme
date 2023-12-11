@@ -111,3 +111,6 @@
 .image {
   image-rendering: -webkit-optimize-contrast;
 }
+.infoCardContainer--info-card-home{
+  height: 266px;
+}

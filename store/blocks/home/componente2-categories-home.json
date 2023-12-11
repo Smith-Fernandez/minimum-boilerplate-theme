@@ -1,0 +1,51 @@
+{
+    "rich-text#shelf-title": {
+        "props": {
+          "text": "## CATEGORÍAS DESTACADAS",
+          "blockClass":"hthemscrema",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+      },  
+      "flex-layout.row#list-categorieshl": {
+        "children":[
+                  "flex-layout.col#item1-categorieshl",
+                  "flex-layout.col#item2-categorieshl",
+                  "flex-layout.col#item3-categorieshl"
+                ]
+    
+      },
+      "flex-layout.col#item1-categorieshl": {
+        "children":[
+          "info-card#item1-cathl"  
+        ]
+    
+      },"info-card#item1-cathl": {
+        "props": {
+          "id": "info-card-home",
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/570fe064-85a0-40d1-911f-bae21851ce18___a2a2ebfd3714f3d08face1e47c0435b3.png",
+          "headline": "PELUCHES",
+          "callToActionText": "DISCOVER",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-home",
+          "textAlignment": "center"
+        }
+      
+        
+      },
+      "flex-layout.col#item2-categorieshl": {
+    
+      },
+      "flex-layout.col#item3-categorieshl": {
+    
+      },
+      "flex-layout.row#hg-categories":{
+        "children":["flex-layout.row#list-categorieshl" ],
+        "props":{
+          "blockClass": "blk-hg-categories",
+          "width":"100%"
+          }          
+        }
+}
