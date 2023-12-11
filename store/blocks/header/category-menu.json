@@ -4,10 +4,286 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
+      "menu-item#indumentaria",
+      "menu-item#mujer",
+      "menu-item#niños",
+      "menu-item#hogar",
       "menu-item#category-apparel",
       "menu-item#category-home",
       "menu-item#more"
     ]
+  },
+  "menu-item#indumentaria": {
+    "props": {
+      "id": "menu-item-category-indumentaria",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "INDUMENTARIA",
+        "text": "INDUMENTARIA "
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-indumentaria"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-indumentaria":{
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-indumentaria"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-indumentaria":{
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#indumentaria-camisetas",
+      "menu-item#indumentaria-medias",
+      "menu-item#indumentaria-pantalones",
+      "menu-item#indumentaria-polos",
+      "menu-item#indumentaria-shorts"
+    ]
+  },
+  "menu-item#indumentaria-camisetas":{
+    "props": {
+      "id": "menu-item-indumentaria-camisetas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "CAMISETAS",
+        "text": "CAMISETAS"
+      }
+    }
+  },
+  "menu-item#indumentaria-medias":{
+    "props": {
+      "id": "menu-item-indumentaria-medias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "MEDIAS",
+        "text": "MEDIAS"
+      }
+    }
+  },
+  "menu-item#indumentaria-pantalones":{
+    "props": {
+      "id": "menu-item-indumentaria-pantalones",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "PANTALONES",
+        "text": "PANTALONES"
+      }
+    }
+  },
+  "menu-item#indumentaria-polos":{
+    "props": {
+      "id": "menu-item-indumentaria-polos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "POLOS",
+        "text": "POLOS"
+      }
+    }
+  },
+  "menu-item#indumentaria-shorts":{
+    "props": {
+      "id": "menu-item-indumentaria-shorts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "SHORTS",
+        "text": "SHORTS"
+      }
+    }
+  },
+  "menu-item#mujer":{
+    "props": {
+      "id": "menu-item-category-mujer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "MUJER",
+        "text": "MUJER"
+      }
+    }
+  },
+  "menu-item#niños":{
+    "props": {
+      "id": "menu-item-category-mujer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "NIÑOS",
+        "text": "NIÑOS"
+      }
+    }
+  },
+  "menu-item#hogar":{
+    "props": {
+      "id": "menu-item-category-hogar",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/",
+        "noFollow": false,
+        "tagTitle": "HOGAR",
+        "text": "HOGAR"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-hogar"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-hogar":{
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-hogar"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-hogar":{
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#hogar-peluches",
+      "menu-item#hogar-botellas",
+      "menu-item#hogar-vasos",
+      "menu-item#hogar-tazas",
+      "menu-item#hogar-cobertores",
+      "menu-item#hogar-sabanas"
+    ]
+  },
+  "menu-item#hogar-peluches":{
+    "props": {
+      "id": "menu-item-hogar-peluches",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "PELUCHES",
+        "text": "PELUCHES"
+      }
+    }
+  },
+  "menu-item#hogar-botellas":{
+    "props": {
+      "id": "menu-item-hogar-botellas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "BOTELLAS",
+        "text": "BOTELLAS"
+      }
+    }
+  },
+  "menu-item#hogar-vasos":{
+    "props": {
+      "id": "menu-item-hogar-vasos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "VASOS",
+        "text": "VASOS"
+      }
+    }
+  },
+  "menu-item#hogar-tazas":{
+    "props": {
+      "id": "menu-item-hogar-tazas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "TAZAS",
+        "text": "TAZAS"
+      }
+    }
+  },
+  "menu-item#hogar-cobertores":{
+    "props": {
+      "id": "menu-item-hogar-cobertores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "COBERTORES",
+        "text": "COBERTORES"
+      }
+    }
+  },
+  "menu-item#hogar-sabanas":{
+    "props": {
+      "id": "menu-item-hogar-sabanas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "SÁBANAS",
+        "text": "SÁBANAS"
+      }
+    }
   },
   "menu-item#category-apparel": {
     "props": {
