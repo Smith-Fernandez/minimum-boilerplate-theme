@@ -1,18 +1,13 @@
-/* .menuItem--isOpen{
-    color: black !important;
+.submenuWrapper{
+    background:#fcf9ef;
 }
-.menuItem--isClosed{
-    color: black !important;
-}
-*/
 .styledLinkContainer{
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
  
 .styledLink{
     color: #781d20 !important;
-    font-size: 11px !important;
+    font-size: 16px !important;
     font-family: 'Oswald';
-    
 }

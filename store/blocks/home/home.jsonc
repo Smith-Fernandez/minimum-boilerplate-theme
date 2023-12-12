@@ -109,8 +109,12 @@
 
 },"flex-layout.col#block-securewidth":{
     "children":[
+      /*componente 1 */
+      "rich-text#shelf-title-componente-1",
+      "flex-layout.row#hg-componente-1", 
+      /*componente  2 */ 
       "rich-text#shelf-title",
-      "flex-layout.row#hg-categories"            
+      "flex-layout.row#hg-categories"
   ]
 },
 /*  "flex-layout.row#shelf": {

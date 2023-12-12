@@ -1,0 +1,92 @@
+{
+    "rich-text#shelf-title-componente-1": {
+        "props": {
+          "text": "## ¡COMPRA ORIGINAL, CÓMPRALE A LA 'U' !",
+          "blockClass":"hthemscrema",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+      },
+    "flex-layout.row#hg-componente-1":{
+        "children":["flex-layout.row#list-componente-1"],
+        "props":{
+          "blockClass": "blk-hg-categories",
+          "width":"100%",
+          "horizontalAlign":"center"
+          }          
+        },
+     "flex-layout.row#list-componente-1":{
+        "props":{
+            "horizontalAlign":"center"  
+        },
+        "children":[
+            "flex-layout.col#item1-componente-1",
+            "flex-layout.col#item2-componente-1"
+          ]
+     },
+     "flex-layout.col#item1-componente-1":{
+        "children":[
+            "image#item1-1",
+            "rich-text#item1-one",
+            "rich-text#item1-two"
+          ],
+        "props":{
+            "horizontalAlign":"center" 
+        }
+     },
+     "image#item1-1":{
+        "props": {
+            "src": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/3b37162b-8437-440e-bd7d-6e016e5a9aaa___da9e48cc6502215f63ff92223e6e1db0.jpg",
+            "maxHeight": 400
+          }
+     },
+     "rich-text#item1-one":{
+        "props": {
+          "text": "ÁLBUM",
+          "blockClass":"hthemscrema",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+          }
+     },
+     "rich-text#item1-two":{
+        "props": {
+            "text": "2023",
+            "blockClass":"hthemscrema",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+            }
+     },  
+     "flex-layout.col#item2-componente-1":{
+        "children":[
+            "image#item2-1",
+            "rich-text#item2-one",
+            "rich-text#item2-two"  
+          ],
+          "props":{
+            "horizontalAlign":"center"
+          }
+     },
+     "image#item2-1":{
+        "props": {
+            "src": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/a6f54123-da8a-4422-a36b-da382f3d8040___f8d173c2c4777c648cb1c69fb1395403.jpg",
+            "maxHeight": 400
+          }
+     },
+     "rich-text#item2-one":{
+      "props": {
+        "text": "PACK DEL CAMPEÓN",
+        "blockClass":"hthemscrema",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+        }
+     },
+     "rich-text#item2-two":{
+      "props": {
+        "text": "2023",
+        "blockClass":"hthemscrema",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+        }
+     }
+
+}
