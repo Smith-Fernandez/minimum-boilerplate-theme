@@ -42,16 +42,16 @@
      },
      "rich-text#item1-one":{
         "props": {
-          "text": "ÁLBUM",
-          "blockClass":"hthemscrema",
+          "text": "### ÁLBUM",
           "textAlignment": "CENTER",
+          "blockClass":"componente-1-titulo-1",
           "textPosition": "CENTER"
           }
      },
      "rich-text#item1-two":{
         "props": {
-            "text": "2023",
-            "blockClass":"hthemscrema",
+            "text": "###### 2023",
+            "blockClass":"componente-1-subtitulo-1",
             "textAlignment": "CENTER",
             "textPosition": "CENTER"
             }
@@ -74,7 +74,7 @@
      },
      "rich-text#item2-one":{
       "props": {
-        "text": "PACK DEL CAMPEÓN",
+        "text": "### PACK DEL CAMPEÓN",
         "blockClass":"hthemscrema",
         "textAlignment": "CENTER",
         "textPosition": "CENTER"
@@ -82,7 +82,7 @@
      },
      "rich-text#item2-two":{
       "props": {
-        "text": "2023",
+        "text": "##### 2023",
         "blockClass":"hthemscrema",
         "textAlignment": "CENTER",
         "textPosition": "CENTER"

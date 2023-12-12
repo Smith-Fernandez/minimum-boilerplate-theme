@@ -108,3 +108,25 @@ font-weight: 200;
   font-weight: 400;
 }
 
+/*cambio compoenete uno titulos*/
+/* .paragraph--componente-1-titulo-1{
+  margin-bottom: 4px;
+}
+.paragraph--componente-1-subtitulo-1{
+  margin-top: 4px;
+}
+
+.wrapper--componente-1-titulo-1{
+  margin-bottom: 4px;
+}
+.wrapper--componente-1-subtitulo-1{
+  margin-top: 4px;
+} */
+
+.heading--componente-1-titulo-1{
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.heading--componente-1-subtitulo-1{
+  margin-top: 4px;
+}
