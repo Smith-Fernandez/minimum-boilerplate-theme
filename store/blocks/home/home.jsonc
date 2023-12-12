@@ -110,7 +110,8 @@
 },"flex-layout.col#block-securewidth":{
     "children":[
       "rich-text#shelf-title",
-      "flex-layout.row#hg-categories"            
+      "flex-layout.row#hg-categories",
+      "flex-layout.row#info-icons"            
   ]
 },
 /*  "flex-layout.row#shelf": {

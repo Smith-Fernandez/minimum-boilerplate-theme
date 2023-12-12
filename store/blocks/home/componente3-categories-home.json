@@ -1,0 +1,71 @@
+{
+      "flex-layout.row#list-info-icons": {
+        "children":[
+                  "flex-layout.col#item1-info-icon",
+                  "flex-layout.col#item2-info-icon",
+                  "flex-layout.col#item3-info-icon"
+                ],"props":{
+                  "colGap":5,
+                  "horizontalAlign":"center"
+                }
+      },
+      "flex-layout.col#item1-info-icon": {
+        "children":[
+          "image#item1-info-icon"  
+        ]
+        ,"props":{
+          "blockClass":"maxwidthelementinfoicon"
+        }
+    
+      },"image#item1-info-icon": {
+        "props": {
+          "src": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/aad2d195-c6db-4b00-8471-2f5eb02fb569___8311b6ffc78ff2de1c57ae899ec8939a.jpg",
+          "maxHeight":"250px",
+          "link":{
+              "url":"http://www.google.com.pe"
+          }
+          
+        }
+      },
+      "flex-layout.col#item2-info-icon": {
+        "children":[
+          "image#item2-info-icon"  
+        ],"props":{
+          "blockClass":"maxwidthelementinfoicon"
+        }
+    
+      },"image#item2-info-icon": {
+        "props": {
+          "src": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/e81d4849-4e6f-481d-842f-74ed2379b23a___f697bdab21b6f96aa654dcc837487442.jpg",
+          "maxHeight":"250px",
+          "link":{
+              "url":"http://www.google.com.pe"
+          }
+        }
+      },
+      "flex-layout.col#item3-info-icon": {
+        "children":[
+          "image#item3-info-icon"  
+        ],"props":{
+          "blockClass":"maxwidthelementinfoicon"
+        }
+    
+    
+      },"image#item3-info-icon": {
+        "props": {
+          "src": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/7196df1c-634e-4bdb-bdf2-34ace7bf1294___36846207f8873c4878e24a826b24485e.jpg",
+          "maxHeight":"250px",
+          "link":{
+              "url":"http://www.google.com.pe"
+          }
+        }
+      },
+      "flex-layout.row#info-icons":{
+        "children":["flex-layout.row#list-info-icons" ],
+        "props":{
+          "blockClass": "blk-hg-categories",
+          "width":"100%"
+          }          
+        }
+}
+

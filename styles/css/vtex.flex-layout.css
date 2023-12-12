@@ -112,3 +112,13 @@
   max-width: 1400px;
   margin: auto;
 }
+
+.flexRowContent--blk-hg-categories{
+  margin-bottom: 100px;
+
+}
+
+.flexCol--maxwidthelementinfoicon{
+  max-width: 250px;
+
+}

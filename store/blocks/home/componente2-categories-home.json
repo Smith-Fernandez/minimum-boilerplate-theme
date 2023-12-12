@@ -2,7 +2,6 @@
     "rich-text#shelf-title": {
         "props": {
           "text": "## CATEGORÍAS DESTACADAS",
-          "blockClass":"hthemscrema",
           "textAlignment": "CENTER",
           "textPosition": "CENTER"
         }
@@ -12,8 +11,10 @@
                   "flex-layout.col#item1-categorieshl",
                   "flex-layout.col#item2-categorieshl",
                   "flex-layout.col#item3-categorieshl"
-                ]
-    
+                ],"props":{
+                  "colGap":5,
+                  "horizontalAlign":"center"
+                }
       },
       "flex-layout.col#item1-categorieshl": {
         "children":[
@@ -26,20 +27,47 @@
           "isFullModeStyle": true,
           "textPosition": "center",
           "imageUrl": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/570fe064-85a0-40d1-911f-bae21851ce18___a2a2ebfd3714f3d08face1e47c0435b3.png",
-          "headline": "PELUCHES",
-          "callToActionText": "DISCOVER",
+          "callToActionText": "PELUCHES",
           "callToActionUrl": "/sale/d",
           "blockClass": "info-card-home",
-          "textAlignment": "center"
+          "textAlignment": "center",
+          "callToActionMode":"link"
         }
-      
-        
       },
       "flex-layout.col#item2-categorieshl": {
-    
+        "children":[
+          "info-card#item2-cathl"  
+        ]
+      },"info-card#item2-cathl": {
+        "props": {
+          "id": "info-card-home2",
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/033d979d-ea0c-43d6-8fef-351978358cc5___e6c26994a83b88daa43415bcb517c96f.jpg",
+          "callToActionText": "TAZAS",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-home",
+          "textAlignment": "center",
+          "callToActionMode":"link"
+        }
       },
       "flex-layout.col#item3-categorieshl": {
+        "children":[
+          "info-card#item3-cathl"  
+        ]
     
+      },"info-card#item3-cathl": {
+        "props": {
+          "id": "info-card-home3",
+          "isFullModeStyle": true,
+          "textPosition": "center",
+          "imageUrl": "https://ticketmasterpe.vtexassets.com/assets/vtex.file-manager-graphql/images/db322347-9408-441b-bf22-6059c2e7eddd___1e4eca6e9c6a1170b167840780fc5cc8.jpg",
+          "callToActionText": "BOTELLAS",
+          "callToActionUrl": "/sale/d",
+          "blockClass": "info-card-home",
+          "textAlignment": "center",
+          "callToActionMode":"link"
+        }
       },
       "flex-layout.row#hg-categories":{
         "children":["flex-layout.row#list-categorieshl" ],

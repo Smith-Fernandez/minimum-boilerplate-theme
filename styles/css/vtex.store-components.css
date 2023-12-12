@@ -113,4 +113,44 @@
 }
 .infoCardContainer--info-card-home{
   height: 266px;
+  max-width: 426px;
 }
+
+
+.infoCardTextContainer--info-card-home{
+  width: 100%!important;
+  height: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  cursor: pointer;
+  justify-content: center;
+
+}
+
+.infoCardTextContainer--info-card-home:hover{
+  opacity: 1;
+}
+
+.infoCardCallActionContainer--info-card-home {
+  background-color: black !important;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
+ }
+.infoCardCallActionText--info-card-home{
+  color: white;
+  font-family: "Raleway";
+  text-align: center;
+  vertical-align: middle;
+  position: relative;
+  top: 35%;
+  font-size: 24px;
+  font-weight: normal;
+  text-decoration: none;
+
+}
+
